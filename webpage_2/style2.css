@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    text-align: center;
+    padding-top: 300px;
+}
+
+@media(max-width: 320px){
+    body{
+        display: flex;
+        font-size: medium;
+        padding-top: 350px;
+    }
+}
+
+@media(max-height: 568px){
+    body{
+        display: flex;
+        font-size: small;
+    }
+}
